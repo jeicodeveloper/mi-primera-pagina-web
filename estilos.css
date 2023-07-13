@@ -1,0 +1,227 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fbdbcb;
+  color: #0d0807;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #fbdbcb;
+  color: #0d0807;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0d0807;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #0d0807;
+  font-weight: bold;
+}
+
+/* Estilos para la sección hero */
+.hero {
+  background-color: #9f887c;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #f6b39a;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #0d0807;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #845e4e;
+  color: #fbdbcb;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #73645b;
+}
+
+/* Estilos para la sección de servicios */
+.services {
+  background-color: #fabc9b;
+  padding: 40px 0;
+}
+
+.services h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #0d0807;
+}
+
+.service {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service img {
+  max-width: 200px;
+}
+
+.service h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #0d0807;
+}
+
+.service p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #0d0807;
+}
+
+/* Estilos para la sección de portafolio */
+.portfolio {
+  background-color: #f6b39a;
+  padding: 40px 0;
+}
+
+.portfolio h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #0d0807;
+}
+
+.project {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.project img {
+  max-width: 300px;
+  border: 4px solid #fbdbcb;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #0d0807;
+}
+
+.project p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #0d0807;
+}
+
+/* Estilos para la sección de contacto */
+.contact {
+  background-color: #8c6d5a;
+  padding: 40px 0;
+}
+
+.contact h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #0d0807;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #0d0807;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.contact textarea {
+  height: 120px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background-color: #845e4e;
+  color: #fbdbcb;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #73645b;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #fabc9b;
+  color: #0d0807;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links {
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: #0d0807;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+
+/* TAMAÑO LOGO EMPRESA */
+
+.logo-image {
+  max-width: 300px;
+  height: auto;
+}
